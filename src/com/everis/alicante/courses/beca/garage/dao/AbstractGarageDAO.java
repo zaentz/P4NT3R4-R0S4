@@ -45,8 +45,8 @@ public abstract class AbstractGarageDAO {
 			PrintWriter pw = null;
 			{
 				try {
-					fichero = new FileWriter("c:/prueba.txt");
-					pw = new PrintWriter(fichero);
+					fichero = new FileWriter("C:\\development\\archivo.txt");
+					pw = new PrintWriter(archivo);
 
 					for (int i = 0; i < 10; i++)
 						pw.println("Linea " + i);
