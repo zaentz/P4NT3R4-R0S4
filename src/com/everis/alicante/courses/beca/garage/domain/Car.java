@@ -11,6 +11,13 @@ public class Car {
 		this.model = model;
 		this.numWheels = 4;
 	}
+
+	@Override
+	public String toString() {
+		return "Car [plate=" + plate + ", color=" + color + ", model=" + model + ", numWheels=" + numWheels + "]";
+	}
+	
+	
 	
 	
 }

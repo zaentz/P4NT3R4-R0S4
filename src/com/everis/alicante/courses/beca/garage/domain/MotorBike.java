@@ -12,4 +12,11 @@ public class MotorBike {
 		this.numWheels = 2;
 	}
 
+	@Override
+	public String toString() {
+		return "MotorBike [plate=" + plate + ", color=" + color + ", model=" + model + ", numWheels=" + numWheels + "]";
+	}
+	
+	
+
 }

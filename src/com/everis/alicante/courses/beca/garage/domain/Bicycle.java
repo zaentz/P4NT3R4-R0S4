@@ -11,4 +11,11 @@ public class Bicycle {
 		this.numWheels = 2;
 	}
 
+	@Override
+	public String toString() {
+		return "Bicycle [color=" + color + ", model=" + model + ", numWheels=" + numWheels + "]";
+	}
+	
+	
+
 }
