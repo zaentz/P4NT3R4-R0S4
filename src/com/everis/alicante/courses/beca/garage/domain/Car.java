@@ -1,23 +1,14 @@
 package com.everis.alicante.courses.beca.garage.domain;
 
-public class Car {
+public class Car extends Vehicle {
 
-	private String plate, color, model;
-	private Integer numWheels;
-
+	
 	public Car(String plate, String color, String model) {
 		this.plate = plate;
 		this.color = color;
 		this.model = model;
 		this.numWheels = 4;
 	}
-
-	@Override
-	public String toString() {
-		return "Car [plate=" + plate + ", color=" + color + ", model=" + model + ", numWheels=" + numWheels + "]";
-	}
-	
-	
 	
 	
 }
