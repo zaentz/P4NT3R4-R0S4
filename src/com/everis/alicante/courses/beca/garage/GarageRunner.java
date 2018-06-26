@@ -1,13 +1,13 @@
-package com.everis.alicante.courses.beca.java_.garage;
+package com.everis.alicante.courses.beca.garage;
 
 import java.util.Scanner;
 
-import com.everis.alicante.courses.beca.java_.garage.domain.Bicycle;
-import com.everis.alicante.courses.beca.java_.garage.domain.Car;
-import com.everis.alicante.courses.beca.java_.garage.domain.MotorBike;
-import com.everis.alicante.courses.beca.java_.garage.manager.BicycleManager;
-import com.everis.alicante.courses.beca.java_.garage.manager.CarManager;
-import com.everis.alicante.courses.beca.java_.garage.manager.MotorBikeManager;
+import com.everis.alicante.courses.beca.garage.domain.Bicycle;
+import com.everis.alicante.courses.beca.garage.domain.Car;
+import com.everis.alicante.courses.beca.garage.domain.MotorBike;
+import com.everis.alicante.courses.beca.garage.manager.BicycleManager;
+import com.everis.alicante.courses.beca.garage.manager.CarManager;
+import com.everis.alicante.courses.beca.garage.manager.MotorBikeManager;
 import com.everis.alicante.courses.becajava.garage.ui.GarageMenu;
 
 public class GarageRunner {
@@ -45,7 +45,7 @@ public class GarageRunner {
 	}
 
 	private static Car carBuilder() {
-		System.out.println("Introduzca matrícula");
+		System.out.println("Introduzca matrï¿½cula");
 		String matricula = in.nextLine();
 		System.out.println("Introduzca color");
 		String color = in.nextLine();
@@ -63,7 +63,7 @@ public class GarageRunner {
 	}
 
 	private static MotorBike motorBikeBuilder() {
-		System.out.println("Introduzca matrícula");
+		System.out.println("Introduzca matrï¿½cula");
 		String matricula = in.nextLine();
 		System.out.println("Introduzca color");
 		String color = in.nextLine();

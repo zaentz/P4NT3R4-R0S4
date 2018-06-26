@@ -1,9 +1,9 @@
-package com.everis.alicante.courses.beca.java_.garage.manager;
+package com.everis.alicante.courses.beca.garage.manager;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.everis.alicante.courses.beca.java_.garage.domain.Bicycle;
+import com.everis.alicante.courses.beca.garage.domain.Bicycle;
 
 public class BicycleManager {
 

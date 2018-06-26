@@ -1,4 +1,4 @@
-package com.everis.alicante.courses.beca.java_.garage.domain;
+package com.everis.alicante.courses.beca.garage.domain;
 
 public class Bicycle {
 
