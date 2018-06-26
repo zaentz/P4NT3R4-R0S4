@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.everis.alicante.courses.beca.garage.domain.Car;
 
-public class CarManager {
+public class CarManager extends AbstractVehicleManager<Car> {
 
 	private static CarManager instance;
 
@@ -21,7 +21,7 @@ public class CarManager {
 
 	private List<Car> elements = new ArrayList<>();
 
-	public List<Car> list() {
+	/*public List<Car> list() {
 		return elements;
 	}
 
@@ -35,6 +35,6 @@ public class CarManager {
 
 	public Car get(final int i) {
 		return elements.get(i);
-	}
+	}*/
 
 }

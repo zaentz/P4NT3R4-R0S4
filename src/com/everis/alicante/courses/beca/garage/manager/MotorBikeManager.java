@@ -5,11 +5,11 @@ import java.util.List;
 
 import com.everis.alicante.courses.beca.garage.domain.MotorBike;
 
-public class MotorBikeManager {
+public class MotorBikeManager extends AbstractVehicleManager<MotorBike> {
 
 	private List<MotorBike> elements = new ArrayList<>();
 
-	public List<MotorBike> list() {
+	/*public List<MotorBike> list() {
 		return elements;
 	}
 
@@ -23,6 +23,6 @@ public class MotorBikeManager {
 
 	public MotorBike get(final int i) {
 		return elements.get(i);
-	}
+	}*/
 
 }

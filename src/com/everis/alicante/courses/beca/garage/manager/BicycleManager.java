@@ -5,23 +5,9 @@ import java.util.List;
 
 import com.everis.alicante.courses.beca.garage.domain.Bicycle;
 
-public class BicycleManager {
+public class BicycleManager extends AbstractVehicleManager<Bicycle> {
 
-	private List<Bicycle> elements = new ArrayList<>();
+	protected List<Bicycle> elements = new ArrayList<>();
 
-	public List<Bicycle> list() {
-		return elements;
-	}
-
-	public void save(final Bicycle element) {
-		elements.add(element);
-	}
-
-	public void delete(final Bicycle element) {
-		elements.remove(element);
-	}
-
-	public Bicycle get(final int i) {
-		return elements.get(i);
-	}
+	
 }
