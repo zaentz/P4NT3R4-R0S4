@@ -7,9 +7,9 @@ import com.everis.alicante.courses.beca.garage.domain.MotorBike;
 
 public class MotorBikeManager extends AbstractVehicleManager<MotorBike> {
 
-	private List<MotorBike> elements = new ArrayList<>();
+	/*private List<MotorBike> elements = new ArrayList<>();
 
-	/*public List<MotorBike> list() {
+	public List<MotorBike> list() {
 		return elements;
 	}
 

@@ -19,22 +19,6 @@ public class CarManager extends AbstractVehicleManager<Car> {
 		return instance;
 	}
 
-	private List<Car> elements = new ArrayList<>();
-
-	/*public List<Car> list() {
-		return elements;
-	}
-
-	public void save(final Car element) {
-		elements.add(element);
-	}
-
-	public void delete(final Car element) {
-		elements.remove(element);
-	}
-
-	public Car get(final int i) {
-		return elements.get(i);
-	}*/
+	
 
 }

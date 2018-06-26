@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.everis.alicante.courses.beca.garage.domain.Bicycle;
+import com.everis.alicante.courses.beca.garage.domain.Vehicle;
 
-public abstract class AbstractVehicleManager <T>{
+public abstract class AbstractVehicleManager <T extends Vehicle>{
 
 	
 	private List<T> elements = new ArrayList<>();
@@ -25,4 +26,10 @@ public abstract class AbstractVehicleManager <T>{
 	public T get(final int i) {
 		return elements.get(i);
 	}
+
+	public List<T> getElements() {
+		return elements;
+	}
+	
+	
 }
